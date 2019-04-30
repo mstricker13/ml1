@@ -45,7 +45,7 @@ def plot_data(female_data, male_data):
     plt.title('Disneyland Population')
     plt.xlabel('Height')
     plt.ylabel('Weight')
-    plt.legend(['Male', 'Female'], loc='upper left')
+    plt.legend(['Female', 'Male'], loc='upper left')
     # plt.show()
     #save plot
     save_location = os.path.join('output', 'population.png')
